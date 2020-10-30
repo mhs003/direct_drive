@@ -1,5 +1,5 @@
 # Direct Drive
-**Download from google drive file link directly with php**
+**Download from google drive directly with php**
 
 Get direct download link for your google drive file and download it directly from any device.
 
