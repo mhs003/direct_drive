@@ -1,11 +1,18 @@
 <?php
+/***
+* Direct Drive
+* @auth: Monzurul Hasan
+* @file: download.php
+* @date: 30/10/2020
+*/
+
 //error_reporting(E_ALL);
 //ini_set("display_errors", 1);
 require_once('logic.php');
 
 $domain = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'];
-$this_file = "/drive/d/";
-$main_file = "/drive/main/";
+$this_file = "/d/";
+$main_file = "/main/";
 
 $file_name = "Download..";
 $error = "";
