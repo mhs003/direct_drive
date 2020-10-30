@@ -3,8 +3,8 @@
 //ini_set("display_errors", 1);
 require_once('logic.php');
 
-$this_file = "/drive/main/";
-$dw_file = "/drive/d/";
+$this_file = "/main/";
+$dw_file = "/d/";
 
 function load_url($lu){
   $ft = $_SERVER['SCRIPT_NAME'];
