@@ -6,6 +6,7 @@
 * @date: 30/10/2020
 */
 
+error_reporting(0);
 //error_reporting(E_ALL);
 //ini_set("display_errors", 1);
 require_once('logic.php');
