@@ -1,4 +1,12 @@
 <?php
+/***
+* Direct Drive
+* @auth: Monzurul Hasan
+* @file: logic.php
+* @date: 30/10/2020
+* @type: class
+*/
+
 class logic{
   public $id;
   
