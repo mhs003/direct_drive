@@ -152,7 +152,7 @@ if(isset($_POST['gdurl'])){
     <h2>Direct Drive</h2>
     <?php echo $error; ?>
     <form method="post" action="<?php echo $this_file; ?>">
-      <input type="url" class="hat" name="gdurl" value="<?php echo $url; ?>" required/><input class="has" type="submit" value="Download"/>
+      <input type="url" class="hat" name="gdurl" placeholder="Drive file url.." value="<?php echo $url; ?>" required/><input class="has" type="submit" value="Download"/>
     </form>
     <span class="crd">&copy; Monzurul Hasan</span>
   </body>
