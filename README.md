@@ -1,7 +1,3 @@
-### [This doesn't work anymore]
-
-
-
 # Direct Drive
 **Download from google drive directly with php**
 
